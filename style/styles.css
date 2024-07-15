@@ -129,6 +129,8 @@ letter-spacing: 0%;
 text-align: left;
 width: 490px;
 margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 25px;
 }
 .text-2-subtitle{
     color: rgb(13, 19, 33);
@@ -140,12 +142,14 @@ letter-spacing: 0%;
 text-align: left;
 opacity: .7;
 width: 380px;
+margin-left: 25px;
 margin-bottom: 30px;
 }
 .btn{
     box-sizing: border-box;
     padding: 5px;
     width: fit-content;
+    margin-left: 25px;
 }
 .img2{
    
@@ -209,4 +213,187 @@ margin-bottom: 30px;
     margin-left: 50px;
     margin-top: 30px;
 }
+.more-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+}
+.more-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin-bottom: 30px;
+}
+.more-img iframe{
+    justify-content: center;
+    text-align: center;
+    width: 1050px;
+    height: 550px;
+    padding: 20px;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+}
+.target-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.html{
+    border-radius: 16px;
+background: rgba(245, 71, 27, 0.05);
+width: 300px;
+height: auto;
+padding: 20px;
+}
 
+.htmltitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.html-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 
+    15px;
+}
+.html-icon img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-top: 20px;
+}
+.html a{
+    color: black;
+    font-size: larger;
+}
+.css{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+
+
+.csstitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.css-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 15px;
+}
+.css-icon img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-top: 20px;
+}
+.css a{
+    color: black;
+    font-size: larger;
+}
+.js{
+    border-radius: 16px;
+    width: 300px;
+    padding: 20px;
+    height: auto;
+background: rgba(255, 223, 0, 0.05);
+}
+
+.jstitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.js-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 15px;
+}
+.js-icon img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-top: 20px;
+}
+.js a{
+    color: black;
+    font-size: larger;
+    justify-content: left;
+    position: relative;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+}
