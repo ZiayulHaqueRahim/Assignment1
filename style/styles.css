@@ -459,3 +459,22 @@ opacity: 0.7;
     border: none;
 
 }
+#footer{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    width: 1050px;
+    height: 40px;
+    margin-top: 15px;
+}
+.footer-text{
+    margin-left: 80px;
+}
+.footer-icon-container img{
+    margin-left: 100px;
+    align-items: end;
+    display: inline;
+}
+.im1 img{
+    margin-left: 300px;
+}
