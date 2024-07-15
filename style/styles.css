@@ -397,3 +397,65 @@ margin-bottom: 10px;
     justify-content: center;
     text-align: left;
 }
+
+#about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    background: url(../assets/handshake.jpg);
+    border-radius: 20px;
+    height: 300px;
+    width: 1060px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.about-us-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-us-subtitle{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+#sup{
+    
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+    border: none;
+}
+.subm{
+    box-sizing: border-box;
+    width: 100px;
+    padding: 3px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+
+}
